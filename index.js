@@ -3,7 +3,7 @@
 let attendee = {};
 
 // Add properties
-attendee["attendeeID"] = "T001"
+attendee["attendeeId"] = "T001"
 attendee["name"] = "Alice Smith"
 attendee["event"] = "JavaScript Conference"
 attendee["ticketType"] = "VIP"
@@ -38,7 +38,7 @@ delete attendee["event"]
 
 //Create a function to add a Checked-in Property
 function addCheckedInProperty(attendee){
-  attendee["Checked-in"] = true
+  attendee["CheckedIn"] = true
 }
 
 //Needed for the tests to work. Don't modify
